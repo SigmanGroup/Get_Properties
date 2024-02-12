@@ -69,7 +69,7 @@ Be sure to include correct Gaussian input keywords for properties you will want 
 This work is developed by Brittany C. Haas and Melissa A. Hardy. Portions are adapted from code by David B. Vogt and Jordan P. Liles.
 
 ## Citing Get Properties
-Please reference the DOI of our Zenodo repository with:
+Please reference our Zenodo repository with:
 
 Haas, B. C., Hardy, M. A. SigmanGroup/Get_Properties: Get_Properties_v1.0.3 (v1.0.3). *Zenodo* **2024**. DOI: [10.5281/zenodo.10651727](https://doi.org/10.5281/zenodo.10651727)
 
