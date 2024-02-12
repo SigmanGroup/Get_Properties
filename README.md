@@ -1,4 +1,6 @@
 # Get_Properties
+[![DOI](https://zenodo.org/badge/756425408.svg)](https://zenodo.org/doi/10.5281/zenodo.10651726)
+
 Workflow scripts for automated collection of molecular properties, as well as atom- and bond-level properties for a conserved moiety of interest from Gaussian jobs. Post-processing allows for the collection of condensed descriptors for conformational ensembles: 
   * minimum property value
   * maximum property value
@@ -69,7 +71,7 @@ This work is developed by Brittany C. Haas and Melissa A. Hardy. Portions are ad
 ## Citing Get Properties
 Please reference the DOI of our Zenodo repository with:
 
-XXX
+Haas, B. C., Hardy, M. A. SigmanGroup/Get_Properties: Get_Properties_v1.0.3 (v1.0.3). *Zenodo* **2024**. DOI: [10.5281/zenodo.10651727](https://doi.org/10.5281/zenodo.10651727)
 
 ## License
 Get Properties is freely available for both academic and commercial use under the MIT license.
