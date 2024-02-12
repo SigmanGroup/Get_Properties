@@ -1,12 +1,13 @@
 # Get_Properties
 Workflow scripts for automated collection of molecular properties, as well as atom- and bond-level properties for a conserved moiety of interest from Gaussian jobs. Post-processing allows for the collection of condensed descriptors for conformational ensembles: 
-	* minimum property value
-	* maximum property value
-	* property value from the lowest energy conformer
-	* Boltzmann-weighted average
-	* Boltzmann-weighted standard deviation
-	* range
-	* property value from a specific conformer (e.g., Vbur(min) conformer)
+  * minimum property value
+  * maximum property value
+  * property value from the lowest energy conformer
+  * Boltzmann-weighted average
+  * Boltzmann-weighted standard deviation
+  * range
+  * property value from a specific conformer (e.g., Vbur(min) conformer)
+
 Note, the user can specify an energy cutoff (in kcal/mol) to remove high-energy DFT-optimized conformers before post-processing.
 
 ## Conda Environment Setup
@@ -46,7 +47,7 @@ Make sure the kernel is set to the correct environment when using the Jupyter No
   * buried volume (ᴍᴏʀғᴇᴜs)
   * buried volume scan (ᴍᴏʀғᴇᴜs)
   * pyramidalization (ᴍᴏʀғᴇᴜs)
-  * solvent accessible surface area (SASA) & sphericity (ᴍᴏʀғᴇᴜs)
+  * solvent accessible surface area, volume, & sphericity (ᴍᴏʀғᴇᴜs)
   * Sterimol2Vec (DBSTEP)
   * Hirshfeld charges 
   * ChelpG
@@ -67,6 +68,7 @@ This work is developed by Brittany C. Haas and Melissa A. Hardy. Portions are ad
 
 ## Citing Get Properties
 Please reference the DOI of our Zenodo repository with:
+
 XXX
 
 ## License
