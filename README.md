@@ -13,16 +13,12 @@ Workflow scripts for automated collection of molecular properties, as well as at
 Note, the user can specify an energy cutoff (in kcal/mol) to remove high-energy DFT-optimized conformers before post-processing.
 
 ## Conda Environment Setup
-Uses Python/3.8.8
+Uses Python/3.11
 ### One time setup instructions for Windows, Mac, and Linux users: 
-    Step 1: Create a conda environment using the correct .yml file for your operating system: 
-      Windows: conda env create -f gpenv_win.yml
-      Mac: conda env create -f gpenv_mac.yml
-	  Linux: conda env create -f gpenv_linux.yml
+    Step 1: Create a conda environment using the correct .yml file: 
+      conda env create -f gp_env.yml
     Step 2: Activate it: 
-      Windows: conda activate gpenv_win 
-      Mac: conda activate gpenv_mac
-	  Linux: conda activate gpenv_linux
+      conda activate gp_env
     Step 3: Install GoodVibes (Jupyter Notebook branch) 
       git clone https://github.com/patonlab/goodvibes
       cd goodvibes
