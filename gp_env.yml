@@ -1,0 +1,16 @@
+name: gpenv_311
+channels:
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipykernel=6.29.5
+  - openpyxl=3.1.5
+  - numpy=1.26.4
+  - pandas=1.5.3
+  - scipy=1.14.1
+  - morfeus-ml=0.7.2
+  - pip=24.2
+  - pip:
+      - rdkit==2024.3.5
+      - dbstep==1.1.0
