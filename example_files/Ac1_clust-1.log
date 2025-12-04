@@ -4,9 +4,9 @@
  Initial command:
  /uufs/chpc.utah.edu/sys/installdir/gaussian16/C01/AVX2/g16/l1.exe "/scratch/general/lustre/u6032257/3857475/notchpeak.peaks/Gau-204453.inp" -scrdir="/scratch/general/lustre/u6032257/3857475/notchpeak.peaks/"
  Entering Link 1 = /uufs/chpc.utah.edu/sys/installdir/gaussian16/C01/AVX2/g16/l1.exe PID=    204455.
-  
+
  Copyright (c) 1988-2019, Gaussian, Inc.  All Rights Reserved.
-  
+
  This is part of the Gaussian(R) 16 program.  It is based on
  the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
  the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
@@ -19,28 +19,28 @@
  University), and the Gaussian 82(TM) system (copyright 1983,
  Carnegie Mellon University). Gaussian is a federally registered
  trademark of Gaussian, Inc.
-  
+
  This software contains proprietary and confidential information,
  including trade secrets, belonging to Gaussian, Inc.
-  
+
  This software is provided under written license and may be
  used, copied, transmitted, or stored only in accord with that
  written license.
-  
+
  The following legend is applicable only to US Government
  contracts under FAR:
-  
+
                     RESTRICTED RIGHTS LEGEND
-  
+
  Use, reproduction and disclosure by the US Government is
  subject to restrictions as set forth in subparagraphs (a)
  and (c) of the Commercial Computer Software - Restricted
  Rights clause in FAR 52.227-19.
-  
+
  Gaussian, Inc.
  340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
-  
-  
+
+
  ---------------------------------------------------------------
  Warning -- This program may not be used in any manner that
  competes with the business of Gaussian, Inc. or will provide
@@ -53,37 +53,37 @@
  licensee that it is not a competitor of Gaussian, Inc. and that
  it will not use this program in any manner prohibited above.
  ---------------------------------------------------------------
-  
+
 
  Cite this work as:
  Gaussian 16, Revision C.01,
- M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
- M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
- G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
- J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
- J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
- F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
- T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
- G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
- J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
- T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
- F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
- V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
- K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
- J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
- J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria,
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone,
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich,
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian,
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young,
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone,
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega,
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda,
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai,
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta,
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin,
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand,
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar,
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi,
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas,
  J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2019.
- 
+
  ******************************************
  Gaussian 16:  ES64L-G16RevC.01  3-Jul-2019
-                 3-Feb-2022 
+                 3-Feb-2022
  ******************************************
  %NProcShared=32
  Will use up to   32 processors via shared memory.
  %mem=16GB
  %chk=Ac1_clust-1.chk
  ----------------------------------------------------------------------
- # B3LYP/6-31G(d,p) empiricaldispersion=GD3BJ int=(grid=ultrafine) opt 
+ # B3LYP/6-31G(d,p) empiricaldispersion=GD3BJ int=(grid=ultrafine) opt
  freq=noraman
  ----------------------------------------------------------------------
  1/18=20,19=15,26=4,38=1/1,3;
@@ -110,39 +110,39 @@
  -------
  Symbolic Z-matrix:
  Charge =  0 Multiplicity = 1
- O                     5.5458   -1.3318   -2.0196 
- C                     4.5132   -0.9992   -1.2165 
- C                     4.4109   -1.9353   -0.0108 
- C                     3.0958   -1.8449    0.8083 
- C                     1.9433   -2.7688    0.3474 
- C                     1.3253   -2.4442   -1.0298 
- C                     1.9477   -3.2268   -2.2025 
- C                     1.4049   -2.7725   -3.5703 
- C                     2.0421   -3.4952   -4.7763 
- C                     3.553    -3.2504   -4.979 
- C                     3.9222   -1.7804   -5.2356 
- O                     3.7747   -0.0498   -1.4387 
- H                     5.5038   -0.6894   -2.7284 
- H                     5.2433   -1.6437    0.6287 
- H                     4.6021   -2.9615   -0.3239 
- H                     3.3287   -2.1135    1.8404 
- H                     2.7417   -0.8126    0.8663 
- H                     2.26     -3.8127    0.384 
- H                     1.1502   -2.6912    1.0935 
- H                     0.2583   -2.6719   -1. 
- H                     1.3833   -1.3698   -1.2151 
- H                     3.029    -3.1164   -2.1867 
- H                     1.7583   -4.2933   -2.0705 
- H                     1.5338   -1.6945   -3.678 
- H                     0.3265   -2.9378   -3.5939 
- H                     1.8661   -4.5679   -4.6802 
- H                     1.5136   -3.1961   -5.6831 
- H                     4.1147   -3.6243   -4.1222 
- H                     3.8911   -3.8478   -5.8273 
- H                     3.3859   -1.3825   -6.0979 
- H                     3.6863   -1.151    -4.3772 
- H                     4.9891   -1.6767   -5.4344 
- 
+ O                     5.5458   -1.3318   -2.0196
+ C                     4.5132   -0.9992   -1.2165
+ C                     4.4109   -1.9353   -0.0108
+ C                     3.0958   -1.8449    0.8083
+ C                     1.9433   -2.7688    0.3474
+ C                     1.3253   -2.4442   -1.0298
+ C                     1.9477   -3.2268   -2.2025
+ C                     1.4049   -2.7725   -3.5703
+ C                     2.0421   -3.4952   -4.7763
+ C                     3.553    -3.2504   -4.979
+ C                     3.9222   -1.7804   -5.2356
+ O                     3.7747   -0.0498   -1.4387
+ H                     5.5038   -0.6894   -2.7284
+ H                     5.2433   -1.6437    0.6287
+ H                     4.6021   -2.9615   -0.3239
+ H                     3.3287   -2.1135    1.8404
+ H                     2.7417   -0.8126    0.8663
+ H                     2.26     -3.8127    0.384
+ H                     1.1502   -2.6912    1.0935
+ H                     0.2583   -2.6719   -1.
+ H                     1.3833   -1.3698   -1.2151
+ H                     3.029    -3.1164   -2.1867
+ H                     1.7583   -4.2933   -2.0705
+ H                     1.5338   -1.6945   -3.678
+ H                     0.3265   -2.9378   -3.5939
+ H                     1.8661   -4.5679   -4.6802
+ H                     1.5136   -3.1961   -5.6831
+ H                     4.1147   -3.6243   -4.1222
+ H                     3.8911   -3.8478   -5.8273
+ H                     3.3859   -1.3825   -6.0979
+ H                     3.6863   -1.151    -4.3772
+ H                     4.9891   -1.6767   -5.4344
+
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
  Berny optimization.
@@ -327,7 +327,7 @@
  Number of steps in this run=    179 maximum allowed number of steps=    192.
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -498,7 +498,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -1174,14 +1174,14 @@
    D79       -3.05264  -0.00083   0.00000  -0.01189  -0.01188  -3.06453
    D80       -0.96149  -0.00021   0.00000  -0.00281  -0.00281  -0.96430
          Item               Value     Threshold  Converged?
- Maximum Force            0.017361     0.000450     NO 
- RMS     Force            0.003678     0.000300     NO 
- Maximum Displacement     1.673566     0.001800     NO 
- RMS     Displacement     0.399764     0.001200     NO 
+ Maximum Force            0.017361     0.000450     NO
+ RMS     Force            0.003678     0.000300     NO
+ Maximum Displacement     1.673566     0.001800     NO
+ RMS     Displacement     0.399764     0.001200     NO
  Predicted change in Energy=-9.224213D-03
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -1352,7 +1352,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -1678,14 +1678,14 @@
    D79       -3.06453  -0.01891   0.00757  -0.01635  -0.00878  -3.07330
    D80       -0.96430  -0.00478   0.00179  -0.00445  -0.00265  -0.96695
          Item               Value     Threshold  Converged?
- Maximum Force            0.455557     0.000450     NO 
- RMS     Force            0.074214     0.000300     NO 
- Maximum Displacement     1.259311     0.001800     NO 
- RMS     Displacement     0.258815     0.001200     NO 
+ Maximum Force            0.455557     0.000450     NO
+ RMS     Force            0.074214     0.000300     NO
+ Maximum Displacement     1.259311     0.001800     NO
+ RMS     Displacement     0.258815     0.001200     NO
  Predicted change in Energy=-5.835065D-02
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -1856,7 +1856,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -2175,14 +2175,14 @@
    D79       -3.07330   0.00042   0.00686  -0.00411   0.00277  -3.07053
    D80       -0.96695   0.00064   0.00181   0.00374   0.00557  -0.96139
          Item               Value     Threshold  Converged?
- Maximum Force            0.016131     0.000450     NO 
- RMS     Force            0.003046     0.000300     NO 
- Maximum Displacement     0.902085     0.001800     NO 
- RMS     Displacement     0.144227     0.001200     NO 
+ Maximum Force            0.016131     0.000450     NO
+ RMS     Force            0.003046     0.000300     NO
+ Maximum Displacement     0.902085     0.001800     NO
+ RMS     Displacement     0.144227     0.001200     NO
  Predicted change in Energy=-3.461833D-03
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -2353,7 +2353,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -2679,14 +2679,14 @@
    D79       -3.07053  -0.00044  -0.00088  -0.00447  -0.00535  -3.07588
    D80       -0.96139   0.00015  -0.00176  -0.00164  -0.00341  -0.96479
          Item               Value     Threshold  Converged?
- Maximum Force            0.006359     0.000450     NO 
- RMS     Force            0.001144     0.000300     NO 
- Maximum Displacement     0.268858     0.001800     NO 
- RMS     Displacement     0.065928     0.001200     NO 
+ Maximum Force            0.006359     0.000450     NO
+ RMS     Force            0.001144     0.000300     NO
+ Maximum Displacement     0.268858     0.001800     NO
+ RMS     Displacement     0.065928     0.001200     NO
  Predicted change in Energy=-1.047710D-03
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -2857,7 +2857,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -3181,14 +3181,14 @@
    D79       -3.07588   0.00008   0.00067   0.00086   0.00154  -3.07435
    D80       -0.96479   0.00019   0.00043   0.00483   0.00526  -0.95953
          Item               Value     Threshold  Converged?
- Maximum Force            0.002986     0.000450     NO 
- RMS     Force            0.000622     0.000300     NO 
- Maximum Displacement     0.191306     0.001800     NO 
- RMS     Displacement     0.045970     0.001200     NO 
+ Maximum Force            0.002986     0.000450     NO
+ RMS     Force            0.000622     0.000300     NO
+ Maximum Displacement     0.191306     0.001800     NO
+ RMS     Displacement     0.045970     0.001200     NO
  Predicted change in Energy=-2.122622D-04
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -3359,7 +3359,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -3684,14 +3684,14 @@
    D79       -3.07435   0.00018  -0.00077   0.00987   0.00910  -3.06525
    D80       -0.95953   0.00013  -0.00264   0.01203   0.00939  -0.95014
          Item               Value     Threshold  Converged?
- Maximum Force            0.002912     0.000450     NO 
- RMS     Force            0.000595     0.000300     NO 
- Maximum Displacement     0.131974     0.001800     NO 
- RMS     Displacement     0.029126     0.001200     NO 
+ Maximum Force            0.002912     0.000450     NO
+ RMS     Force            0.000595     0.000300     NO
+ Maximum Displacement     0.131974     0.001800     NO
+ RMS     Displacement     0.029126     0.001200     NO
  Predicted change in Energy=-1.846424D-04
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -3862,7 +3862,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -4188,14 +4188,14 @@
    D79       -3.06525  -0.00000   0.00080  -0.00154  -0.00073  -3.06598
    D80       -0.95014  -0.00005   0.00052  -0.00084  -0.00031  -0.95045
          Item               Value     Threshold  Converged?
- Maximum Force            0.000830     0.000450     NO 
+ Maximum Force            0.000830     0.000450     NO
  RMS     Force            0.000203     0.000300     YES
- Maximum Displacement     0.090250     0.001800     NO 
- RMS     Displacement     0.020489     0.001200     NO 
+ Maximum Displacement     0.090250     0.001800     NO
+ RMS     Displacement     0.020489     0.001200     NO
  Predicted change in Energy=-4.457088D-05
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -4366,7 +4366,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -4692,14 +4692,14 @@
    D79       -3.06598  -0.00009  -0.00491  -0.00217  -0.00709  -3.07307
    D80       -0.95045  -0.00006  -0.00644   0.00076  -0.00568  -0.95613
          Item               Value     Threshold  Converged?
- Maximum Force            0.001259     0.000450     NO 
+ Maximum Force            0.001259     0.000450     NO
  RMS     Force            0.000248     0.000300     YES
- Maximum Displacement     0.046072     0.001800     NO 
- RMS     Displacement     0.014433     0.001200     NO 
+ Maximum Displacement     0.046072     0.001800     NO
+ RMS     Displacement     0.014433     0.001200     NO
  Predicted change in Energy=-3.772493D-05
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -4870,7 +4870,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -5196,14 +5196,14 @@
    D79       -3.07307   0.00008   0.00333  -0.00349  -0.00016  -3.07322
    D80       -0.95613  -0.00005   0.00265  -0.00372  -0.00107  -0.95720
          Item               Value     Threshold  Converged?
- Maximum Force            0.001194     0.000450     NO 
+ Maximum Force            0.001194     0.000450     NO
  RMS     Force            0.000232     0.000300     YES
- Maximum Displacement     0.044916     0.001800     NO 
- RMS     Displacement     0.008822     0.001200     NO 
+ Maximum Displacement     0.044916     0.001800     NO
+ RMS     Displacement     0.008822     0.001200     NO
  Predicted change in Energy=-1.348112D-05
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -5374,7 +5374,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -5701,14 +5701,14 @@
    D79       -3.07322   0.00003   0.00046  -0.00077  -0.00031  -3.07353
    D80       -0.95720  -0.00000   0.00015  -0.00106  -0.00091  -0.95811
          Item               Value     Threshold  Converged?
- Maximum Force            0.000763     0.000450     NO 
+ Maximum Force            0.000763     0.000450     NO
  RMS     Force            0.000131     0.000300     YES
- Maximum Displacement     0.021628     0.001800     NO 
- RMS     Displacement     0.005658     0.001200     NO 
+ Maximum Displacement     0.021628     0.001800     NO
+ RMS     Displacement     0.005658     0.001200     NO
  Predicted change in Energy=-3.639482D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -5879,7 +5879,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -6212,12 +6212,12 @@
          Item               Value     Threshold  Converged?
  Maximum Force            0.000448     0.000450     YES
  RMS     Force            0.000085     0.000300     YES
- Maximum Displacement     0.032730     0.001800     NO 
- RMS     Displacement     0.006700     0.001200     NO 
+ Maximum Displacement     0.032730     0.001800     NO
+ RMS     Displacement     0.006700     0.001200     NO
  Predicted change in Energy=-2.018968D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -6388,7 +6388,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -6723,12 +6723,12 @@
          Item               Value     Threshold  Converged?
  Maximum Force            0.000328     0.000450     YES
  RMS     Force            0.000066     0.000300     YES
- Maximum Displacement     0.014877     0.001800     NO 
- RMS     Displacement     0.003672     0.001200     NO 
+ Maximum Displacement     0.014877     0.001800     NO
+ RMS     Displacement     0.003672     0.001200     NO
  Predicted change in Energy=-2.095526D-06
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -6899,7 +6899,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -7224,12 +7224,12 @@
          Item               Value     Threshold  Converged?
  Maximum Force            0.000430     0.000450     YES
  RMS     Force            0.000074     0.000300     YES
- Maximum Displacement     0.003261     0.001800     NO 
+ Maximum Displacement     0.003261     0.001800     NO
  RMS     Displacement     0.000852     0.001200     YES
  Predicted change in Energy=-4.161906D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -7400,7 +7400,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -7724,12 +7724,12 @@
          Item               Value     Threshold  Converged?
  Maximum Force            0.000239     0.000450     YES
  RMS     Force            0.000046     0.000300     YES
- Maximum Displacement     0.004526     0.001800     NO 
+ Maximum Displacement     0.004526     0.001800     NO
  RMS     Displacement     0.001039     0.001200     YES
  Predicted change in Energy=-2.811368D-07
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -7900,7 +7900,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -8223,12 +8223,12 @@
          Item               Value     Threshold  Converged?
  Maximum Force            0.000061     0.000450     YES
  RMS     Force            0.000014     0.000300     YES
- Maximum Displacement     0.002551     0.001800     NO 
+ Maximum Displacement     0.002551     0.001800     NO
  RMS     Displacement     0.000642     0.001200     YES
  Predicted change in Energy=-5.551222D-08
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -8399,7 +8399,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -8905,7 +8905,7 @@
  --------------------------------------------------------------------------------
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -9076,7 +9076,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -9475,7 +9475,7 @@
  N-N= 7.779586393257D+02 E-N=-2.819270681000D+03  KE= 5.384892806710D+02
  Unable to Open any file for archive entry.
  1\1\GINC-NOTCH075\FOpt\RB3LYP\6-31G(d,p)\C10H20O2\U6032257\03-Feb-2022
- \0\\# B3LYP/6-31G(d,p) empiricaldispersion=GD3BJ int=(grid=ultrafine) 
+ \0\\# B3LYP/6-31G(d,p) empiricaldispersion=GD3BJ int=(grid=ultrafine)
  opt freq=noraman\\Ac1.xyz\\0,1\O,5.4101465523,-1.7759156021,-2.1565483
  789\C,4.4392804045,-1.2876335335,-1.3454427224\C,4.4031583697,-2.02527
  03107,-0.0259386617\C,3.1094842917,-1.8328703814,0.7733949332\C,1.9161
@@ -9753,7 +9753,7 @@
  Number of steps in this run=      2 maximum allowed number of steps=      2.
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -9924,7 +9924,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -11678,7 +11678,7 @@
                              4363.54  4371.38  4376.04  4387.37  4396.00
                              4412.06  4417.35  4426.22  4435.47  4445.12
                              4450.85  4461.57  4477.70  4482.95  5392.91
- 
+
  Zero-point correction=                           0.292507 (Hartree/Particle)
  Thermal correction to Energy=                    0.306527
  Thermal correction to Enthalpy=                  0.307471
@@ -11687,7 +11687,7 @@
  Sum of electronic and thermal Energies=              -543.364175
  Sum of electronic and thermal Enthalpies=            -543.363230
  Sum of electronic and thermal Free Energies=         -543.419073
- 
+
                      E (Thermal)             CV                S
                       KCal/Mol        Cal/Mol-Kelvin    Cal/Mol-Kelvin
  Total                  192.348             52.119            117.531
@@ -12275,7 +12275,7 @@
  ----------------------------------------------------------------------
  Unable to Open any file for archive entry.
  1\1\GINC-NOTCH075\Freq\RB3LYP\6-31G(d,p)\C10H20O2\U6032257\03-Feb-2022
- \0\\#N Geom=AllCheck Guess=TCheck SCRF=Check GenChk RB3LYP/6-31G(d,p) 
+ \0\\#N Geom=AllCheck Guess=TCheck SCRF=Check GenChk RB3LYP/6-31G(d,p)
  Freq\\Ac1.xyz\\0,1\O,5.4101465523,-1.7759156021,-2.1565483789\C,4.4392
  804045,-1.2876335335,-1.3454427224\C,4.4031583697,-2.0252703107,-0.025
  9386617\C,3.1094842917,-1.8328703814,0.7733949332\C,1.9161291964,-2.71
@@ -13136,9 +13136,9 @@
  Initial command:
  /uufs/chpc.utah.edu/sys/installdir/gaussian16/C01/AVX2/g16/l1.exe "/scratch/general/lustre/u6032257/3857475/notchpeak.peaks/Gau-204453.inp" -scrdir="/scratch/general/lustre/u6032257/3857475/notchpeak.peaks/"
  Entering Link 1 = /uufs/chpc.utah.edu/sys/installdir/gaussian16/C01/AVX2/g16/l1.exe PID=    211537.
-  
+
  Copyright (c) 1988-2019, Gaussian, Inc.  All Rights Reserved.
-  
+
  This is part of the Gaussian(R) 16 program.  It is based on
  the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
  the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
@@ -13151,28 +13151,28 @@
  University), and the Gaussian 82(TM) system (copyright 1983,
  Carnegie Mellon University). Gaussian is a federally registered
  trademark of Gaussian, Inc.
-  
+
  This software contains proprietary and confidential information,
  including trade secrets, belonging to Gaussian, Inc.
-  
+
  This software is provided under written license and may be
  used, copied, transmitted, or stored only in accord with that
  written license.
-  
+
  The following legend is applicable only to US Government
  contracts under FAR:
-  
+
                     RESTRICTED RIGHTS LEGEND
-  
+
  Use, reproduction and disclosure by the US Government is
  subject to restrictions as set forth in subparagraphs (a)
  and (c) of the Commercial Computer Software - Restricted
  Rights clause in FAR 52.227-19.
-  
+
  Gaussian, Inc.
  340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
-  
-  
+
+
  ---------------------------------------------------------------
  Warning -- This program may not be used in any manner that
  competes with the business of Gaussian, Inc. or will provide
@@ -13185,30 +13185,30 @@
  licensee that it is not a competitor of Gaussian, Inc. and that
  it will not use this program in any manner prohibited above.
  ---------------------------------------------------------------
-  
+
 
  Cite this work as:
  Gaussian 16, Revision C.01,
- M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
- M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
- G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
- J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
- J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
- F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
- T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
- G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
- J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
- T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
- F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
- V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
- K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
- J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
- J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria,
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone,
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich,
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian,
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young,
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone,
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega,
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda,
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai,
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta,
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin,
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand,
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar,
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi,
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas,
  J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2019.
- 
+
  ******************************************
  Gaussian 16:  ES64L-G16RevC.01  3-Jul-2019
-                 3-Feb-2022 
+                 3-Feb-2022
  ******************************************
  %NProcShared=32
  Will use up to   32 processors via shared memory.
@@ -13442,7 +13442,7 @@
  ! D79   D(29,10,11,31)       -176.1222                                         !
  ! D80   D(29,10,11,32)        -54.884                                          !
  --------------------------------------------------------------------------------
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -13613,7 +13613,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -18234,7 +18234,7 @@
  Opening RunExU unformatted file "/scratch/general/lustre/u6032257/3857475/notchpeak.peaks/Gau-211537.EUF"
  Read unf file /scratch/general/lustre/u6032257/3857475/notchpeak.peaks/Gau-211537.EUF:
  Label Gaussian matrix elements                                         IVers= 2 NLab= 2 Version=ES64L-G16RevC.01
- Title Ac1.xyz                                                         
+ Title Ac1.xyz
  NAtoms=    32 NBasis=   492 NBsUse=   492 ICharg=     0 Multip=     1 NE=    96 Len12L=8 Len4L=8 IOpCl= 0 ICGU=111
  GAUSSIAN SCALARS                    NI= 1 NR= 1 NTot=       1 LenBuf=    2 NRI=1 N=    1000
  NPA CHARGES                         NI= 0 NR= 1 NTot=      32 LenBuf= 4000 NRI=1 N=      32
@@ -18408,9 +18408,9 @@
  Initial command:
  /uufs/chpc.utah.edu/sys/installdir/gaussian16/C01/AVX2/g16/l1.exe "/scratch/general/lustre/u6032257/3857475/notchpeak.peaks/Gau-204453.inp" -scrdir="/scratch/general/lustre/u6032257/3857475/notchpeak.peaks/"
  Entering Link 1 = /uufs/chpc.utah.edu/sys/installdir/gaussian16/C01/AVX2/g16/l1.exe PID=    212456.
-  
+
  Copyright (c) 1988-2019, Gaussian, Inc.  All Rights Reserved.
-  
+
  This is part of the Gaussian(R) 16 program.  It is based on
  the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
  the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
@@ -18423,28 +18423,28 @@
  University), and the Gaussian 82(TM) system (copyright 1983,
  Carnegie Mellon University). Gaussian is a federally registered
  trademark of Gaussian, Inc.
-  
+
  This software contains proprietary and confidential information,
  including trade secrets, belonging to Gaussian, Inc.
-  
+
  This software is provided under written license and may be
  used, copied, transmitted, or stored only in accord with that
  written license.
-  
+
  The following legend is applicable only to US Government
  contracts under FAR:
-  
+
                     RESTRICTED RIGHTS LEGEND
-  
+
  Use, reproduction and disclosure by the US Government is
  subject to restrictions as set forth in subparagraphs (a)
  and (c) of the Commercial Computer Software - Restricted
  Rights clause in FAR 52.227-19.
-  
+
  Gaussian, Inc.
  340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
-  
-  
+
+
  ---------------------------------------------------------------
  Warning -- This program may not be used in any manner that
  competes with the business of Gaussian, Inc. or will provide
@@ -18457,30 +18457,30 @@
  licensee that it is not a competitor of Gaussian, Inc. and that
  it will not use this program in any manner prohibited above.
  ---------------------------------------------------------------
-  
+
 
  Cite this work as:
  Gaussian 16, Revision C.01,
- M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
- M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
- G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
- J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
- J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
- F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
- T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
- G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
- J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
- T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
- F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
- V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
- K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
- J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
- J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria,
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone,
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich,
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian,
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young,
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone,
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega,
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda,
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai,
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta,
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin,
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand,
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar,
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi,
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas,
  J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2019.
- 
+
  ******************************************
  Gaussian 16:  ES64L-G16RevC.01  3-Jul-2019
-                 3-Feb-2022 
+                 3-Feb-2022
  ******************************************
  %NProcShared=32
  Will use up to   32 processors via shared memory.
@@ -18713,7 +18713,7 @@
  ! D79   D(29,10,11,31)       -176.1222                                         !
  ! D80   D(29,10,11,32)        -54.884                                          !
  --------------------------------------------------------------------------------
-                          Input orientation:                          
+                          Input orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
@@ -18884,7 +18884,7 @@
  Full point group                 C1      NOp   1
  Largest Abelian subgroup         C1      NOp   1
  Largest concise Abelian subgroup C1      NOp   1
-                         Standard orientation:                         
+                         Standard orientation:
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
