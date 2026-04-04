@@ -2,6 +2,7 @@
 
 > [!IMPORTANT]
 > This repository is deprecated. Use the updated [GetProperties](https://github.com/SigmanGroup/GetProperties)
+
 [![DOI](https://zenodo.org/badge/756425408.svg)](https://zenodo.org/doi/10.5281/zenodo.10651726)
 
 Workflow scripts for automated collection of molecular properties, as well as atom- and bond-level properties for a conserved moiety of interest from Gaussian jobs. Post-processing allows for the collection of condensed descriptors for conformational ensembles:
