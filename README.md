@@ -1,7 +1,10 @@
 # Get_Properties
+
+> [!IMPORTANT]
+> This repository is deprecated. Use the updated [GetProperties](https://github.com/SigmanGroup/GetProperties)
 [![DOI](https://zenodo.org/badge/756425408.svg)](https://zenodo.org/doi/10.5281/zenodo.10651726)
 
-Workflow scripts for automated collection of molecular properties, as well as atom- and bond-level properties for a conserved moiety of interest from Gaussian jobs. Post-processing allows for the collection of condensed descriptors for conformational ensembles: 
+Workflow scripts for automated collection of molecular properties, as well as atom- and bond-level properties for a conserved moiety of interest from Gaussian jobs. Post-processing allows for the collection of condensed descriptors for conformational ensembles:
   * minimum property value
   * maximum property value
   * property value from the lowest energy conformer
@@ -14,23 +17,23 @@ Note, the user can specify an energy cutoff (in kcal/mol) to remove high-energy 
 
 ## Conda Environment Setup
 Uses Python/3.11
-### One time setup instructions for Windows, Mac, and Linux users: 
-    Step 1: Create a conda environment using the correct .yml file: 
+### One time setup instructions for Windows, Mac, and Linux users:
+    Step 1: Create a conda environment using the correct .yml file:
       conda env create -f gp_env.yml
-    Step 2: Activate it: 
+    Step 2: Activate it:
       conda activate gp_env
-    Step 3: Install GoodVibes (Jupyter Notebook branch) 
+    Step 3: Install GoodVibes (Jupyter Notebook branch)
       git clone https://github.com/patonlab/goodvibes
       cd goodvibes
       git checkout GV2021
-      python setup.py install 
+      python setup.py install
 
 Make sure the kernel is set to the correct environment when using the Jupyter Notebook.
-    
+
 ## Properties
   * energies (GoodVibes)
-  * nbo 
-  * nmr 
+  * nbo
+  * nmr
   * angle
   * dihedral angle
   * distance
@@ -47,7 +50,7 @@ Make sure the kernel is set to the correct environment when using the Jupyter No
   * pyramidalization (ᴍᴏʀғᴇᴜs)
   * solvent accessible surface area, volume, & sphericity (ᴍᴏʀғᴇᴜs)
   * Sterimol2Vec (DBSTEP)
-  * Hirshfeld charges 
+  * Hirshfeld charges
   * ChelpG
   * IR stretching frequency – *works for one stretch in the input range*
 
@@ -55,7 +58,7 @@ Be sure to include correct Gaussian input keywords for properties you will want 
 
 ## Important Notes
   * This script assumes that you have conformational ensembles for multiple compounds and that your naming scheme has some prefix, compound identifier (i.e., number, letter, name), suffix, and conformer number (i.e., Ac1_1.log. Ac1_2.log. Ac2_1.log. Ac2_2.log).
-    * If this is not the case, you can use a bulk renaming utility to adopt suitable names. 
+    * If this is not the case, you can use a bulk renaming utility to adopt suitable names.
   * This script is only intended to get properties for **linked** jobs.
     * If you don’t have linked jobs, get your own energies, read them in as an extra column in the atom map Excel or add them to the All_Conformer_Properties_example.xlsx.
       * Cannot get Gibbs energy for a single point job with solvent model.
